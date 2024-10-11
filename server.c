@@ -49,7 +49,7 @@ int	main(int ac, char **av)
 	return (0);
 }
 
-// CODE DU PREMIER PUSH (SANS BUFFER).
+// CODE DU PREMIER PUSH.
 
 /*
 #include "minitalk.h"

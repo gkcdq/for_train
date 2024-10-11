@@ -51,7 +51,7 @@ int	main(int argc, char **argv)
 	return (0);
 }
 
-// CODE DU PREMIER PUSH (SANS BUFFER).
+// CODE DU PREMIER PUSH.
 
 /*#include "minitalk.h"
 
