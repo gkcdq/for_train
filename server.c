@@ -6,7 +6,7 @@
 /*   By: tmilin <tmilin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/28 13:49:28 by tmilin            #+#    #+#             */
-/*   Updated: 2024/10/08 12:42:21 by tmilin           ###   ########.fr       */
+/*   Updated: 2024/10/11 13:57:26 by tmilin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,7 +73,7 @@ int	main(int ac, char **av)
 		return (0);
 	}
 	pid = getpid();
-	ft_printf("\n	PID : %d\n\n", pid);
+	ft_printf("\n	PID : %d\n", pid);
 	signal(SIGUSR1, bit_signal);
 	signal(SIGUSR2, bit_signal);
 	while (1)
